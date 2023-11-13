@@ -334,7 +334,7 @@ namespace Kimphat
                 if (reader.Read())
                 {
 
-                    string upc = SelectedProduct.Substring(1);
+                    string upc = SelectedProduct[1..];
                     string kp_code = reader["kp_code"].ToString();
                     string brand = reader["brand"].ToString();
                     string description = reader["description"].ToString();
