@@ -59,6 +59,7 @@
             label13 = new Label();
             label12 = new Label();
             label2 = new Label();
+            panel3 = new Panel();
             ((System.ComponentModel.ISupportInitialize)DGV_UC_Products).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PCB_UC_Product_Image).BeginInit();
@@ -438,11 +439,22 @@
             label2.Text = "Promo";
             label2.TextAlign = ContentAlignment.MiddleLeft;
             // 
+            // panel3
+            // 
+            panel3.BackColor = Color.FromArgb(227, 15, 44);
+            panel3.BackgroundImageLayout = ImageLayout.Zoom;
+            panel3.Location = new Point(23, 590);
+            panel3.Margin = new Padding(0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1587, 3);
+            panel3.TabIndex = 33;
+            // 
             // UC_Main_Products
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
+            Controls.Add(panel3);
             Controls.Add(label2);
             Controls.Add(label12);
             Controls.Add(LBL_UC_Main_Product_User);
@@ -512,5 +524,6 @@
         private Label label13;
         private Label label12;
         private Label label2;
+        private Panel panel3;
     }
 }
