@@ -59,7 +59,7 @@
             panel2.BackColor = Color.FromArgb(50, 50, 50);
             panel2.BackgroundImage = Properties.Resources.KP_Logo;
             panel2.BackgroundImageLayout = ImageLayout.Zoom;
-            panel2.Location = new Point(-8, 21);
+            panel2.Location = new Point(-8, 14);
             panel2.Margin = new Padding(0);
             panel2.Name = "panel2";
             panel2.Size = new Size(344, 65);
@@ -72,14 +72,14 @@
             panel3.Location = new Point(-8, -1);
             panel3.Margin = new Padding(0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(352, 14);
+            panel3.Size = new Size(352, 6);
             panel3.TabIndex = 2;
             // 
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(50, 50, 50);
             panel4.BackgroundImageLayout = ImageLayout.Zoom;
-            panel4.Location = new Point(-8, 12);
+            panel4.Location = new Point(-8, 5);
             panel4.Margin = new Padding(0);
             panel4.Name = "panel4";
             panel4.Size = new Size(352, 84);
