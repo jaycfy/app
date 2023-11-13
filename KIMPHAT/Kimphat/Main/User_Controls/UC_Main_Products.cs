@@ -339,7 +339,7 @@ namespace Kimphat
                     string brand = reader["brand"].ToString();
                     string description = reader["description"].ToString();
                     int cs_qty = Convert.ToInt16(reader["cs_qty"].ToString());
-                    int mesure = Convert.ToInt16(reader["mesure"].ToString());
+                    string mesure = reader["mesure"].ToString();
                     string unit = reader["unit"].ToString();
                     string attribut = reader["attribut"].ToString();
                     int balance = Convert.ToInt16(reader["balance"].ToString());
