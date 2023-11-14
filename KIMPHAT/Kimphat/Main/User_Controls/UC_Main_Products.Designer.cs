@@ -90,7 +90,6 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             DGV_UC_Products.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             DGV_UC_Products.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DGV_UC_Products.ColumnHeadersVisible = false;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.White;
             dataGridViewCellStyle2.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
