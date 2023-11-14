@@ -60,6 +60,10 @@
             label12 = new Label();
             label2 = new Label();
             panel3 = new Panel();
+            LBL_UC_Main_Product_Family = new Label();
+            label14 = new Label();
+            LBL_UC_Main_Product_Category = new Label();
+            label16 = new Label();
             ((System.ComponentModel.ISupportInitialize)DGV_UC_Products).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PCB_UC_Product_Image).BeginInit();
@@ -177,7 +181,7 @@
             // PCB_UC_Product_UPC
             // 
             PCB_UC_Product_UPC.BackColor = Color.Transparent;
-            PCB_UC_Product_UPC.Location = new Point(477, 949);
+            PCB_UC_Product_UPC.Location = new Point(583, 949);
             PCB_UC_Product_UPC.Name = "PCB_UC_Product_UPC";
             PCB_UC_Product_UPC.Size = new Size(196, 71);
             PCB_UC_Product_UPC.SizeMode = PictureBoxSizeMode.Zoom;
@@ -358,7 +362,7 @@
             CKB_UC_Main_Product_Taxes.AutoSize = true;
             CKB_UC_Main_Product_Taxes.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
             CKB_UC_Main_Product_Taxes.ForeColor = Color.FromArgb(40, 40, 40);
-            CKB_UC_Main_Product_Taxes.Location = new Point(572, 881);
+            CKB_UC_Main_Product_Taxes.Location = new Point(1041, 998);
             CKB_UC_Main_Product_Taxes.Name = "CKB_UC_Main_Product_Taxes";
             CKB_UC_Main_Product_Taxes.Size = new Size(72, 22);
             CKB_UC_Main_Product_Taxes.TabIndex = 26;
@@ -371,7 +375,7 @@
             CKB_UC_Main_Product_Balance.AutoSize = true;
             CKB_UC_Main_Product_Balance.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
             CKB_UC_Main_Product_Balance.ForeColor = Color.FromArgb(40, 40, 40);
-            CKB_UC_Main_Product_Balance.Location = new Point(477, 881);
+            CKB_UC_Main_Product_Balance.Location = new Point(946, 998);
             CKB_UC_Main_Product_Balance.Name = "CKB_UC_Main_Product_Balance";
             CKB_UC_Main_Product_Balance.Size = new Size(89, 22);
             CKB_UC_Main_Product_Balance.TabIndex = 27;
@@ -384,7 +388,7 @@
             CKB_UC_Main_Product_Deposit.AutoSize = true;
             CKB_UC_Main_Product_Deposit.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
             CKB_UC_Main_Product_Deposit.ForeColor = Color.FromArgb(40, 40, 40);
-            CKB_UC_Main_Product_Deposit.Location = new Point(650, 881);
+            CKB_UC_Main_Product_Deposit.Location = new Point(1119, 998);
             CKB_UC_Main_Product_Deposit.Name = "CKB_UC_Main_Product_Deposit";
             CKB_UC_Main_Product_Deposit.Size = new Size(76, 22);
             CKB_UC_Main_Product_Deposit.TabIndex = 28;
@@ -397,7 +401,7 @@
             LBL_UC_Main_Product_User.Cursor = Cursors.IBeam;
             LBL_UC_Main_Product_User.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
             LBL_UC_Main_Product_User.ForeColor = Color.FromArgb(40, 40, 40);
-            LBL_UC_Main_Product_User.Location = new Point(583, 836);
+            LBL_UC_Main_Product_User.Location = new Point(583, 837);
             LBL_UC_Main_Product_User.Name = "LBL_UC_Main_Product_User";
             LBL_UC_Main_Product_User.Size = new Size(612, 23);
             LBL_UC_Main_Product_User.TabIndex = 30;
@@ -408,7 +412,7 @@
             label13.BackColor = Color.Transparent;
             label13.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label13.ForeColor = Color.FromArgb(40, 40, 40);
-            label13.Location = new Point(477, 836);
+            label13.Location = new Point(477, 837);
             label13.Name = "label13";
             label13.Size = new Size(110, 23);
             label13.TabIndex = 29;
@@ -420,9 +424,9 @@
             label12.BackColor = Color.Transparent;
             label12.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label12.ForeColor = Color.FromArgb(40, 40, 40);
-            label12.Location = new Point(477, 923);
+            label12.Location = new Point(477, 972);
             label12.Name = "label12";
-            label12.Size = new Size(110, 23);
+            label12.Size = new Size(100, 23);
             label12.TabIndex = 31;
             label12.Text = "EAN13 :";
             label12.TextAlign = ContentAlignment.MiddleLeft;
@@ -449,11 +453,63 @@
             panel3.Size = new Size(1587, 3);
             panel3.TabIndex = 33;
             // 
+            // LBL_UC_Main_Product_Family
+            // 
+            LBL_UC_Main_Product_Family.BackColor = Color.White;
+            LBL_UC_Main_Product_Family.Cursor = Cursors.IBeam;
+            LBL_UC_Main_Product_Family.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            LBL_UC_Main_Product_Family.ForeColor = Color.FromArgb(40, 40, 40);
+            LBL_UC_Main_Product_Family.Location = new Point(583, 906);
+            LBL_UC_Main_Product_Family.Name = "LBL_UC_Main_Product_Family";
+            LBL_UC_Main_Product_Family.Size = new Size(612, 23);
+            LBL_UC_Main_Product_Family.TabIndex = 35;
+            LBL_UC_Main_Product_Family.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label14
+            // 
+            label14.BackColor = Color.Transparent;
+            label14.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.ForeColor = Color.FromArgb(40, 40, 40);
+            label14.Location = new Point(477, 906);
+            label14.Name = "label14";
+            label14.Size = new Size(110, 23);
+            label14.TabIndex = 34;
+            label14.Text = "Famille :";
+            label14.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // LBL_UC_Main_Product_Category
+            // 
+            LBL_UC_Main_Product_Category.BackColor = Color.White;
+            LBL_UC_Main_Product_Category.Cursor = Cursors.IBeam;
+            LBL_UC_Main_Product_Category.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            LBL_UC_Main_Product_Category.ForeColor = Color.FromArgb(40, 40, 40);
+            LBL_UC_Main_Product_Category.Location = new Point(583, 883);
+            LBL_UC_Main_Product_Category.Name = "LBL_UC_Main_Product_Category";
+            LBL_UC_Main_Product_Category.Size = new Size(612, 23);
+            LBL_UC_Main_Product_Category.TabIndex = 37;
+            LBL_UC_Main_Product_Category.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label16
+            // 
+            label16.BackColor = Color.Transparent;
+            label16.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.ForeColor = Color.FromArgb(40, 40, 40);
+            label16.Location = new Point(477, 883);
+            label16.Name = "label16";
+            label16.Size = new Size(110, 23);
+            label16.TabIndex = 36;
+            label16.Text = "Catégorie :";
+            label16.TextAlign = ContentAlignment.MiddleLeft;
+            // 
             // UC_Main_Products
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
+            Controls.Add(LBL_UC_Main_Product_Category);
+            Controls.Add(label16);
+            Controls.Add(LBL_UC_Main_Product_Family);
+            Controls.Add(label14);
             Controls.Add(panel3);
             Controls.Add(label2);
             Controls.Add(label12);
@@ -525,5 +581,9 @@
         private Label label12;
         private Label label2;
         private Panel panel3;
+        private Label LBL_UC_Main_Product_Family;
+        private Label label14;
+        private Label LBL_UC_Main_Product_Category;
+        private Label label16;
     }
 }

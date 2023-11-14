@@ -377,6 +377,8 @@ namespace Kimphat
                     LBL_UC_Main_Product_Format.Text = mesure + " " + unit;
                     LBL_UC_Main_Product_Case.Text = cs_qty + " x " + mesure + " " + unit;
                     LBL_UC_Main_Product_User.Text = user;
+                    LBL_UC_Main_Product_Category.Text = category;
+                    LBL_UC_Main_Product_Family.Text = familly;
 
                     CKB_UC_Main_Product_Balance.Checked = false;
                     if (balance == 1) { CKB_UC_Main_Product_Balance.Checked = true; }
