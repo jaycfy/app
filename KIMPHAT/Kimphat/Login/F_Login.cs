@@ -75,8 +75,8 @@ namespace Kimphat
             {
                 con.Open();
                 MySqlCommand cmd = new(
-                    "SELECT level.name, users.id, users.username, users.password, users.level, users.attribut " +
-                    "FROM users inner join level on users.level=level.level " +
+                    "SELECT level.name, users.id, users.username, users.password, users.level, users.store_id " +
+                    "FROM users left join level on users.level=level.level " +
                     "WHERE users.username ='" + inputUsername + "';",
                     con);
                 MySqlDataReader reader;
@@ -99,7 +99,7 @@ namespace Kimphat
                     User.UserID = reader["id"].ToString();
                     User.UserName = reader["username"].ToString();
                     User.UserLevel = reader["level"].ToString();
-                    User.UserAttribut = reader["attribut"].ToString();
+                    User.UserAttribut = reader["store_id"].ToString();
                     User.UserRole = reader["name"].ToString();
 
                     F_Main f_Main = new();
@@ -123,6 +123,7 @@ namespace Kimphat
             {
                 //---
                 Update_F_Login_Bar(ex.Message, true);
+                MessageBox.Show(ex.Message);
             }
             con.Close();
         }

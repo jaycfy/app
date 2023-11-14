@@ -29,6 +29,7 @@ namespace Kimphat
 
             uC_Main_Products1.Hide();
             uC_Main_Settings1.Hide();
+            uC_Main_po1.Hide();
         }
 
         private void LBL_F_Main_Product_Click(object sender, EventArgs e)
@@ -37,6 +38,7 @@ namespace Kimphat
 
             uC_Main_Category1.Hide();
             uC_Main_Settings1.Hide();
+            uC_Main_po1.Hide();
         }
 
         private void F_Main_Load(object sender, EventArgs e)
@@ -51,6 +53,7 @@ namespace Kimphat
 
             uC_Main_Category1.Hide();
             uC_Main_Products1.Hide();
+            uC_Main_po1.Hide();
         }
 
         private void LBL_F_Main_Promo_Click(object sender, EventArgs e)
@@ -66,6 +69,15 @@ namespace Kimphat
         private void LBL_F_Main_Family_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Fonctionnalité à venir");
+        }
+
+        private void LBL_F_Main_PO_Click(object sender, EventArgs e)
+        {
+            uC_Main_po1.Show();
+
+            uC_Main_Category1.Hide();
+            uC_Main_Products1.Hide();
+            uC_Main_Settings1.Hide();
         }
     }
 }

@@ -118,6 +118,7 @@
             DGV_UC_Products.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             DGV_UC_Products.Size = new Size(1587, 522);
             DGV_UC_Products.TabIndex = 1;
+            DGV_UC_Products.CellContentClick += UC_Main_Product_Selected;
             DGV_UC_Products.CellContentDoubleClick += UC_Main_Product_Selected;
             // 
             // label1
@@ -504,7 +505,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveBorder;
+            BackColor = Color.Transparent;
             Controls.Add(LBL_UC_Main_Product_Category);
             Controls.Add(label16);
             Controls.Add(LBL_UC_Main_Product_Family);

@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Main));
             panel1 = new Panel();
+            panel5 = new Panel();
+            LBL_F_Main_PO = new Label();
+            pictureBox8 = new PictureBox();
             panel18 = new Panel();
             label1 = new Label();
             LBL_F_Main_Username = new Label();
@@ -65,10 +68,13 @@
             panel3 = new Panel();
             panel2 = new Panel();
             PNL_UC_Container = new Panel();
-            uC_Main_Products1 = new UC_Main_Products();
             uC_Main_Settings1 = new UC_Main_Settings();
+            uC_Main_po1 = new Main.User_Controls.UC_Main_PO();
             uC_Main_Category1 = new UC_Main_Category();
+            uC_Main_Products1 = new UC_Main_Products();
             panel1.SuspendLayout();
+            panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             panel18.SuspendLayout();
             BTN_F_Main_Quit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -90,6 +96,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(40, 40, 40);
+            panel1.Controls.Add(panel5);
             panel1.Controls.Add(panel18);
             panel1.Controls.Add(BTN_F_Main_Quit);
             panel1.Controls.Add(panel16);
@@ -113,15 +120,50 @@
             panel1.Size = new Size(266, 1037);
             panel1.TabIndex = 0;
             // 
+            // panel5
+            // 
+            panel5.Controls.Add(LBL_F_Main_PO);
+            panel5.Controls.Add(pictureBox8);
+            panel5.Cursor = Cursors.Hand;
+            panel5.Dock = DockStyle.Top;
+            panel5.Location = new Point(0, 431);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(266, 45);
+            panel5.TabIndex = 17;
+            // 
+            // LBL_F_Main_PO
+            // 
+            LBL_F_Main_PO.Dock = DockStyle.Right;
+            LBL_F_Main_PO.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            LBL_F_Main_PO.ForeColor = Color.White;
+            LBL_F_Main_PO.ImageAlign = ContentAlignment.MiddleLeft;
+            LBL_F_Main_PO.Location = new Point(64, 0);
+            LBL_F_Main_PO.Name = "LBL_F_Main_PO";
+            LBL_F_Main_PO.Size = new Size(202, 45);
+            LBL_F_Main_PO.TabIndex = 4;
+            LBL_F_Main_PO.Text = "Bons de travail";
+            LBL_F_Main_PO.TextAlign = ContentAlignment.MiddleLeft;
+            LBL_F_Main_PO.Click += LBL_F_Main_PO_Click;
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Dock = DockStyle.Left;
+            pictureBox8.Image = Properties.Resources.Admin_Logo;
+            pictureBox8.Location = new Point(0, 0);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(64, 45);
+            pictureBox8.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox8.TabIndex = 3;
+            pictureBox8.TabStop = false;
+            // 
             // panel18
             // 
             panel18.Controls.Add(label1);
             panel18.Controls.Add(LBL_F_Main_Username);
             panel18.Controls.Add(LBL_F_Main_Level);
-            panel18.Dock = DockStyle.Fill;
-            panel18.Location = new Point(0, 431);
+            panel18.Location = new Point(0, 482);
             panel18.Name = "panel18";
-            panel18.Size = new Size(266, 561);
+            panel18.Size = new Size(266, 507);
             panel18.TabIndex = 16;
             // 
             // label1
@@ -129,7 +171,7 @@
             label1.Dock = DockStyle.Bottom;
             label1.Font = new Font("Gotham", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(227, 15, 44);
-            label1.Location = new Point(0, 418);
+            label1.Location = new Point(0, 364);
             label1.Name = "label1";
             label1.Size = new Size(266, 48);
             label1.TabIndex = 2;
@@ -141,7 +183,7 @@
             LBL_F_Main_Username.Dock = DockStyle.Bottom;
             LBL_F_Main_Username.Font = new Font("Gotham", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             LBL_F_Main_Username.ForeColor = Color.White;
-            LBL_F_Main_Username.Location = new Point(0, 466);
+            LBL_F_Main_Username.Location = new Point(0, 412);
             LBL_F_Main_Username.Name = "LBL_F_Main_Username";
             LBL_F_Main_Username.Size = new Size(266, 36);
             LBL_F_Main_Username.TabIndex = 1;
@@ -153,7 +195,7 @@
             LBL_F_Main_Level.Dock = DockStyle.Bottom;
             LBL_F_Main_Level.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
             LBL_F_Main_Level.ForeColor = Color.White;
-            LBL_F_Main_Level.Location = new Point(0, 502);
+            LBL_F_Main_Level.Location = new Point(0, 448);
             LBL_F_Main_Level.Name = "LBL_F_Main_Level";
             LBL_F_Main_Level.Size = new Size(266, 59);
             LBL_F_Main_Level.TabIndex = 0;
@@ -496,22 +538,13 @@
             PNL_UC_Container.BackColor = Color.Transparent;
             PNL_UC_Container.Controls.Add(uC_Main_Products1);
             PNL_UC_Container.Controls.Add(uC_Main_Settings1);
+            PNL_UC_Container.Controls.Add(uC_Main_po1);
             PNL_UC_Container.Controls.Add(uC_Main_Category1);
             PNL_UC_Container.Dock = DockStyle.Fill;
             PNL_UC_Container.Location = new Point(266, 0);
             PNL_UC_Container.Name = "PNL_UC_Container";
             PNL_UC_Container.Size = new Size(1634, 1037);
             PNL_UC_Container.TabIndex = 2;
-            // 
-            // uC_Main_Products1
-            // 
-            uC_Main_Products1.BackColor = Color.Transparent;
-            uC_Main_Products1.Dock = DockStyle.Fill;
-            uC_Main_Products1.Location = new Point(0, 0);
-            uC_Main_Products1.Name = "uC_Main_Products1";
-            uC_Main_Products1.Size = new Size(1634, 1037);
-            uC_Main_Products1.TabIndex = 2;
-            uC_Main_Products1.Visible = false;
             // 
             // uC_Main_Settings1
             // 
@@ -520,8 +553,18 @@
             uC_Main_Settings1.Location = new Point(0, 0);
             uC_Main_Settings1.Name = "uC_Main_Settings1";
             uC_Main_Settings1.Size = new Size(1634, 1037);
-            uC_Main_Settings1.TabIndex = 1;
+            uC_Main_Settings1.TabIndex = 3;
             uC_Main_Settings1.Visible = false;
+            // 
+            // uC_Main_po1
+            // 
+            uC_Main_po1.BackColor = Color.Transparent;
+            uC_Main_po1.Dock = DockStyle.Fill;
+            uC_Main_po1.Location = new Point(0, 0);
+            uC_Main_po1.Name = "uC_Main_po1";
+            uC_Main_po1.Size = new Size(1634, 1037);
+            uC_Main_po1.TabIndex = 1;
+            uC_Main_po1.Visible = false;
             // 
             // uC_Main_Category1
             // 
@@ -532,6 +575,16 @@
             uC_Main_Category1.Size = new Size(1634, 1037);
             uC_Main_Category1.TabIndex = 0;
             uC_Main_Category1.Visible = false;
+            // 
+            // uC_Main_Products1
+            // 
+            uC_Main_Products1.BackColor = Color.Transparent;
+            uC_Main_Products1.Dock = DockStyle.Fill;
+            uC_Main_Products1.Location = new Point(0, 0);
+            uC_Main_Products1.Name = "uC_Main_Products1";
+            uC_Main_Products1.Size = new Size(1634, 1037);
+            uC_Main_Products1.TabIndex = 3;
+            uC_Main_Products1.Visible = false;
             // 
             // F_Main
             // 
@@ -552,6 +605,8 @@
             Text = "KIM PHAT - Menu";
             Load += F_Main_Load;
             panel1.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             panel18.ResumeLayout(false);
             BTN_F_Main_Quit.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -610,8 +665,13 @@
         private Label label1;
         private Panel PNL_UC_Container;
         private UC_Main_Settings uC_Main_Administration1;
+        private Panel panel5;
+        private Label LBL_F_Main_PO;
+        private PictureBox pictureBox8;
+        private Main.User_Controls.UC_Main_PO uC_Main_PO1;
         private UC_Main_Category uC_Main_Category1;
         private UC_Main_Settings uC_Main_Settings1;
+        private Main.User_Controls.UC_Main_PO uC_Main_po1;
         private UC_Main_Products uC_Main_Products1;
     }
 }
