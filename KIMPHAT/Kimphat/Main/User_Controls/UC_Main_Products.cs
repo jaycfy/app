@@ -362,7 +362,7 @@ namespace Kimphat
                     string familly = reader["familly"].ToString();
                     string user = reader["user"].ToString();
 
-
+                    PCB_UC_Product_Image.Image = null;
                     if (image_url != "")
                     {
                         LoadImage(image_url, "image");
