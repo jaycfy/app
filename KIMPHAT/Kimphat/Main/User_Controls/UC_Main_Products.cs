@@ -27,15 +27,15 @@ namespace Kimphat
             MySqlConnection con = new(Database.con);
             MySqlCommand cmd = new(
                 "SELECT " +
-                    "items.attribut, " +
-                    "items.upc, " +
-                    "items.kp_code, " +
-                    "items.brand, " +
-                    "items.description, " +
-                    "items.mesure, " +
-                    "items.unit, " +
-                    "families.name, " +
-                    "users.username " +
+                    "   items.attribut AS ATTRIBUT, " +
+                    "   items.upc AS UPC, " +
+                    "   items.kp_code AS CODE_KP, " +
+                    "   items.brand AS MARQUE, " +
+                    "   items.description AS DESCRIPTION, " +
+                    "   items.mesure AS MESURE, " +
+                    "   items.unit AS UNITÉ, " +
+                    "   families.name AS FAMILLE, " +
+                    "   users.username AS ACHETEUR " +
                     "FROM items " +
                     "LEFT JOIN users on items.user_id = users.id " +
                     "LEFT JOIN families on items.family_id = families.id " +
@@ -103,15 +103,15 @@ namespace Kimphat
             {
                 MySqlCommand cmd = new(
                         "SELECT " +
-                            "   items.attribut, " +
-                            "   items.upc, " +
-                            "   items.kp_code, " +
-                            "   items.brand, " +
-                            "   items.description, " +
-                            "   items.mesure, " +
-                            "   items.unit, " +
-                            "   families.name, " +
-                            "   users.username " +
+                            "   items.attribut AS ATTRIBUT, " +
+                            "   items.upc AS UPC, " +
+                            "   items.kp_code AS CODE_KP, " +
+                            "   items.brand AS MARQUE, " +
+                            "   items.description AS DESCRIPTION, " +
+                            "   items.mesure AS MESURE, " +
+                            "   items.unit AS UNITÉ, " +
+                            "   families.name AS FAMILLE, " +
+                            "   users.username AS ACHETEUR " +
                             "FROM items " +
                             "LEFT JOIN users on items.user_id = users.id " +
                             "LEFT JOIN families on items.family_id = families.id " +
@@ -147,15 +147,15 @@ namespace Kimphat
             {
                 MySqlCommand cmd = new(
                 "SELECT " +
-                    "   items.attribut, " +
-                    "   items.upc, " +
-                    "   items.kp_code, " +
-                    "   items.brand, " +
-                    "   items.description, " +
-                    "   items.mesure, " +
-                    "   items.unit, " +
-                    "   families.name, " +
-                    "   users.username " +
+                    "   items.attribut AS ATTRIBUT, " +
+                    "   items.upc AS UPC, " +
+                    "   items.kp_code AS CODE_KP, " +
+                    "   items.brand AS MARQUE, " +
+                    "   items.description AS DESCRIPTION, " +
+                    "   items.mesure AS MESURE, " +
+                    "   items.unit AS UNITÉ, " +
+                    "   families.name AS FAMILLE, " +
+                    "   users.username AS ACHETEUR " +
                     "FROM items " +
                     "LEFT JOIN users on items.user_id = users.id " +
                     "LEFT JOIN families on items.family_id = families.id " +
@@ -198,15 +198,15 @@ namespace Kimphat
                     MySqlConnection con = new(Database.con);
                     MySqlCommand cmd = new(
                         "SELECT " +
-                            "   items.attribut, " +
-                            "   items.upc, " +
-                            "   items.kp_code, " +
-                            "   items.brand, " +
-                            "   items.description, " +
-                            "   items.mesure, " +
-                            "   items.unit, " +
-                            "   families.name, " +
-                            "   users.username " +
+                            "   items.attribut AS ATTRIBUT, " +
+                            "   items.upc AS UPC, " +
+                            "   items.kp_code AS CODE_KP, " +
+                            "   items.brand AS MARQUE, " +
+                            "   items.description AS DESCRIPTION, " +
+                            "   items.mesure AS MESURE, " +
+                            "   items.unit AS UNITÉ, " +
+                            "   families.name AS FAMILLE, " +
+                            "   users.username AS ACHETEUR " +
                             "FROM items " +
                             "LEFT JOIN users on items.user_id = users.id " +
                             "LEFT JOIN families on items.family_id = families.id " +
@@ -233,15 +233,15 @@ namespace Kimphat
                     MySqlConnection con = new(Database.con);
                     MySqlCommand cmd = new(
                         "SELECT " +
-                            "   items.attribut, " +
-                            "   items.upc, " +
-                            "   items.kp_code, " +
-                            "   items.brand, " +
-                            "   items.description, " +
-                            "   items.mesure, " +
-                            "   items.unit, " +
-                            "   families.name, " +
-                            "   users.username " +
+                            "   items.attribut AS ATTRIBUT, " +
+                            "   items.upc AS UPC, " +
+                            "   items.kp_code AS CODE_KP, " +
+                            "   items.brand AS MARQUE, " +
+                            "   items.description AS DESCRIPTION, " +
+                            "   items.mesure AS MESURE, " +
+                            "   items.unit AS UNITÉ, " +
+                            "   families.name AS FAMILLE, " +
+                            "   users.username AS ACHETEUR " +
                             "FROM items " +
                             "LEFT JOIN users on items.user_id = users.id " +
                             "LEFT JOIN families on items.family_id = families.id " +
@@ -333,7 +333,6 @@ namespace Kimphat
 
                 if (reader.Read())
                 {
-
                     string upc = SelectedProduct[1..];
                     string kp_code = reader["kp_code"].ToString();
                     string brand = reader["brand"].ToString();

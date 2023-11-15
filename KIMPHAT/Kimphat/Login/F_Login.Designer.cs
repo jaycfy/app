@@ -62,7 +62,7 @@
             panel2.Location = new Point(-8, 14);
             panel2.Margin = new Padding(0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(344, 65);
+            panel2.Size = new Size(353, 65);
             panel2.TabIndex = 1;
             // 
             // panel3
@@ -72,7 +72,7 @@
             panel3.Location = new Point(-8, -1);
             panel3.Margin = new Padding(0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(352, 6);
+            panel3.Size = new Size(361, 6);
             panel3.TabIndex = 2;
             // 
             // panel4
@@ -82,11 +82,12 @@
             panel4.Location = new Point(-8, 5);
             panel4.Margin = new Padding(0);
             panel4.Name = "panel4";
-            panel4.Size = new Size(352, 84);
+            panel4.Size = new Size(353, 84);
             panel4.TabIndex = 2;
             // 
             // TXT_Username
             // 
+            TXT_Username.BackColor = Color.White;
             TXT_Username.Cursor = Cursors.IBeam;
             TXT_Username.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TXT_Username.ForeColor = Color.FromArgb(40, 40, 40);
@@ -98,6 +99,7 @@
             // 
             // TXT_Password
             // 
+            TXT_Password.BackColor = Color.White;
             TXT_Password.Cursor = Cursors.IBeam;
             TXT_Password.Font = new Font("Gotham", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TXT_Password.ForeColor = Color.FromArgb(40, 40, 40);

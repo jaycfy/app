@@ -73,6 +73,11 @@ namespace Kimphat
 
         private void LBL_F_Main_PO_Click(object sender, EventArgs e)
         {
+            if (User.UserLevel != "4")
+            {
+                MessageBox.Show("Erreur : Connectez-vous avec des autorisations necessaires");
+                return;
+            }
             uC_Main_po1.Show();
 
             uC_Main_Category1.Hide();

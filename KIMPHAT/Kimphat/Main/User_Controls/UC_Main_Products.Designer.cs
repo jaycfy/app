@@ -149,6 +149,7 @@
             // 
             // TXT_Search
             // 
+            TXT_Search.BackColor = Color.White;
             TXT_Search.Cursor = Cursors.IBeam;
             TXT_Search.Font = new Font("Gotham", 13F, FontStyle.Regular, GraphicsUnit.Point);
             TXT_Search.ForeColor = Color.FromArgb(40, 40, 40);
