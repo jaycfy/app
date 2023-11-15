@@ -38,3 +38,7 @@ C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net8.0-windo
 C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net8.0-windows7.0\Kimphat.pdb
 C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net8.0-windows7.0\Kimphat.genruntimeconfig.cache
 C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net8.0-windows7.0\ref\Kimphat.dll
+C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\bin\Release\net8.0-windows7.0\Kimphat.dll.manifest
+C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\bin\Release\net8.0-windows7.0\Kimphat.application
+C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net8.0-windows7.0\Kimphat.dll.manifest
+C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net8.0-windows7.0\Kimphat.application

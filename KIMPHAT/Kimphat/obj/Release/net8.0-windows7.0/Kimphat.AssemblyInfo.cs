@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kimphat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+383d6f503193ed2ccbe1c4cb533562b2a831de7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kimphat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kimphat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
