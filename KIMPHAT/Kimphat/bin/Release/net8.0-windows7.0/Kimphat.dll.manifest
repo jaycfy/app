@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Kimphat.exe" version="2.1.0.0" publicKeyToken="0000000000000000" language="fr-CA" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Kimphat.exe" version="2.1.0.1" publicKeyToken="0000000000000000" language="fr-CA" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="ressources\KP_App_Logo.ico" asmv2:publisher="Jason" co.v1:suiteName="Kimphat" asmv2:product="KIM PHAT" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -115,7 +115,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>sxQBoA8oyFK6Otb8TBvwzoBl1px/hGSxQgWOItr4Ao8=</dsig:DigestValue>
+      <dsig:DigestValue>PgUXmq1UAdp372LZAHCaIAtz5RSoTR0Y0AZFMzgOXtU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Kimphat.exe" size="297424">
@@ -124,7 +124,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>xvNA32nZkUFsDX8PIdE8ywMOZiDtfecU8F8QrRimARQ=</dsig:DigestValue>
+      <dsig:DigestValue>Ee/cFZyUxOXgN6Y+h48S80M3VCF4EClKb9iciog0KA4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Kimphat.runtimeconfig.json" size="458">

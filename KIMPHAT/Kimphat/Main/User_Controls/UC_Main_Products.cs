@@ -365,7 +365,7 @@ namespace Kimphat
                     PCB_UC_Product_Image.Image = null;
                     if (image_url != "")
                     {
-                        LoadImage(image_url, "image");
+                        LoadImage(url: image_url, type: "image");
                     }
                     string buildedURL = "https://barcode.tec-it.com/barcode.ashx?data=" + upc + "&code=EAN13&translate-esc=true";
                     LoadImage(buildedURL, "upc");
