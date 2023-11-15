@@ -664,7 +664,6 @@
         private Label LBL_F_Main_Username;
         private Label label1;
         private Panel PNL_UC_Container;
-        private UC_Main_Settings uC_Main_Administration1;
         private Panel panel5;
         private Label LBL_F_Main_PO;
         private PictureBox pictureBox8;

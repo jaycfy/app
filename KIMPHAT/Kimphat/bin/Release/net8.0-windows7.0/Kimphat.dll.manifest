@@ -109,22 +109,22 @@
       <dsig:DigestValue>+d1QBFM1zpiYkgyKSg461qEJ+gSFuGuhu50/NUGaiKw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Kimphat.dll" size="849872">
+  <file name="Kimphat.dll" size="849360">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>cJrZDXPmNMPUJQgFV9TgiZmWFYfSKEfYFoYFQ6fpLNQ=</dsig:DigestValue>
+      <dsig:DigestValue>KDDw8i6+nDGBmV57cwcssbPx21h4Amc11Oi6V35G2Oo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Kimphat.exe" size="297936">
+  <file name="Kimphat.exe" size="297424">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>814I/erySTu4jDMLEp69wtBohJI/ZqaJs9n5AstbPPo=</dsig:DigestValue>
+      <dsig:DigestValue>A1hSkw/8/D5nwEjPLDbPaVkBZZBlIp9Zww/aZjMYJZI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Kimphat.runtimeconfig.json" size="458">

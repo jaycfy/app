@@ -15,10 +15,7 @@ namespace Kimphat
     public partial class UC_Main_Category : UserControl
     {
 
-        public UC_Main_Category()
-        {
-            InitializeComponent();
-        }
+        public UC_Main_Category() => InitializeComponent();
 
         private void UC_Main_Category_Load(object sender, EventArgs e)
         {
@@ -46,7 +43,9 @@ namespace Kimphat
             if (DGV_UC_Category_C.Rows[e.RowIndex].Cells[e.ColumnIndex].Value == null) { return; }
 
             DGV_UC_Category_C.CurrentRow.Selected = true;
-            string SelectedCategory = DGV_UC_Category_C.Rows[e.RowIndex].Cells["id"].FormattedValue.ToString();
+            string SelectedCategory = DGV_UC_Category_C.Rows[e.RowIndex]
+                                                       .Cells["id"].FormattedValue
+                                                       .ToString();
 
             MySqlConnection con = new(Database.con);
 

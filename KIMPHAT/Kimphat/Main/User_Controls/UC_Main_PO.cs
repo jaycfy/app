@@ -99,7 +99,7 @@ namespace Kimphat.Main.User_Controls
                 if (reader.Read())
                 {
                     PNL_UC_PO_BT.Show();
-                    string requested_date = string.Concat("Date de la demande : ", reader["requested_date"].ToString().AsSpan(0, reader["requested_date"].ToString().Length - 9));
+                    string requested_date = string.Concat("Date de la demande : ", reader["requested_date"].ToString().AsSpan(0, length: reader["requested_date"].ToString().Length - 9));
                     string work_address = reader["a_name"].ToString() + Environment.NewLine + reader["a_address"].ToString() + ", " + reader["a_city"].ToString() + Environment.NewLine + reader["a_province"].ToString() + ", " + reader["a_p_code"].ToString();
                     string billing_address = reader["b_name"].ToString() + Environment.NewLine + reader["b_address"].ToString() + ", " + reader["b_city"].ToString() + Environment.NewLine + reader["b_province"].ToString() + ", " + reader["b_p_code"].ToString();
                     string s_contact = reader["s_contact"].ToString();
