@@ -68,10 +68,10 @@
             panel3 = new Panel();
             panel2 = new Panel();
             PNL_UC_Container = new Panel();
+            uC_Main_Products1 = new UC_Main_Products();
             uC_Main_Settings1 = new UC_Main_Settings();
             uC_Main_po1 = new Main.User_Controls.UC_Main_PO();
             uC_Main_Category1 = new UC_Main_Category();
-            uC_Main_Products1 = new UC_Main_Products();
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
@@ -148,7 +148,7 @@
             // pictureBox8
             // 
             pictureBox8.Dock = DockStyle.Left;
-            pictureBox8.Image = Properties.Resources.Admin_Logo;
+            pictureBox8.Image = Properties.Resources.Work_Order_Logo1;
             pictureBox8.Location = new Point(0, 0);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(64, 45);
@@ -546,6 +546,16 @@
             PNL_UC_Container.Size = new Size(1634, 1037);
             PNL_UC_Container.TabIndex = 2;
             // 
+            // uC_Main_Products1
+            // 
+            uC_Main_Products1.BackColor = Color.Transparent;
+            uC_Main_Products1.Dock = DockStyle.Fill;
+            uC_Main_Products1.Location = new Point(0, 0);
+            uC_Main_Products1.Name = "uC_Main_Products1";
+            uC_Main_Products1.Size = new Size(1634, 1037);
+            uC_Main_Products1.TabIndex = 3;
+            uC_Main_Products1.Visible = false;
+            // 
             // uC_Main_Settings1
             // 
             uC_Main_Settings1.BackColor = Color.Transparent;
@@ -575,16 +585,6 @@
             uC_Main_Category1.Size = new Size(1634, 1037);
             uC_Main_Category1.TabIndex = 0;
             uC_Main_Category1.Visible = false;
-            // 
-            // uC_Main_Products1
-            // 
-            uC_Main_Products1.BackColor = Color.Transparent;
-            uC_Main_Products1.Dock = DockStyle.Fill;
-            uC_Main_Products1.Location = new Point(0, 0);
-            uC_Main_Products1.Name = "uC_Main_Products1";
-            uC_Main_Products1.Size = new Size(1634, 1037);
-            uC_Main_Products1.TabIndex = 3;
-            uC_Main_Products1.Visible = false;
             // 
             // F_Main
             // 

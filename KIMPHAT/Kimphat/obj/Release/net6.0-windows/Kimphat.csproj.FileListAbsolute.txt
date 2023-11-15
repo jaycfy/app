@@ -41,6 +41,7 @@ C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net6.0-windo
 C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net6.0-windows\Kimphat.genruntimeconfig.cache
 C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net6.0-windows\ref\Kimphat.dll
 C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net6.0-windows\Kimphat.Main.User_Controls.UC_Main_PO.resources
+C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net6.0-windows\Kimphat.sourcelink.json
 C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\bin\Release\net6.0-windows\Kimphat.dll.manifest
 C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\bin\Release\net6.0-windows\Kimphat.application
 C:\Users\JASON\Documents\GitHub\kimphat\KIMPHAT\Kimphat\obj\Release\net6.0-windows\Kimphat.dll.manifest
