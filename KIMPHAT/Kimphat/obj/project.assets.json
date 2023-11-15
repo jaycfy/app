@@ -1790,11 +1790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JASON\\Documents\\GitHub\\kimphat\\KIMPHAT\\Kimphat\\Kimphat.csproj",
+      "projectUniqueName": "C:\\Users\\JASON\\kimphat\\KIMPHAT\\Kimphat\\Kimphat.csproj",
       "projectName": "Kimphat",
-      "projectPath": "C:\\Users\\JASON\\Documents\\GitHub\\kimphat\\KIMPHAT\\Kimphat\\Kimphat.csproj",
+      "projectPath": "C:\\Users\\JASON\\kimphat\\KIMPHAT\\Kimphat\\Kimphat.csproj",
       "packagesPath": "C:\\Users\\JASON\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JASON\\Documents\\GitHub\\kimphat\\KIMPHAT\\Kimphat\\obj\\",
+      "outputPath": "C:\\Users\\JASON\\kimphat\\KIMPHAT\\Kimphat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JASON\\AppData\\Roaming\\NuGet\\NuGet.Config",
